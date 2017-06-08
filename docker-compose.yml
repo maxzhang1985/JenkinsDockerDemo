@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  jenkinsdockerdemo1:
+    image: jenkinsdockerdemo1
+    build:
+      context: ./JenkinsDockerDemo1
+      dockerfile: Dockerfile
