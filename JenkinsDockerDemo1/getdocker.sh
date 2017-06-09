@@ -6,4 +6,4 @@ docker rm myweb
 
 docker build --rm -t dotnetweb .
 
-docker run --name myweb -p 5000:80  -d dotnetweb
+docker run --name myweb -d -p 60000:60000   dotnetweb
