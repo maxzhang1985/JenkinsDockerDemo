@@ -1,2 +1,7 @@
-﻿sudo docker build --rm -t dotnetweb .
-sudo docker run --name myweb -p 80:8090 -d dotnetweb
+﻿docker stop myweb
+
+docker rm myweb
+
+docker build --rm -t dotnetweb .
+
+docker run --name myweb  -d dotnetweb
