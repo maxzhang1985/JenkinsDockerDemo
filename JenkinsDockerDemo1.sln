@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26510.0
+VisualStudioVersion = 15.0.26606.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JenkinsDockerDemo1", "JenkinsDockerDemo1\JenkinsDockerDemo1.csproj", "{4D478D76-6953-41EA-86BA-32E57A8A8AB8}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C0B3EA34-2A81-47F5-8712-F892E5D2C47E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FEDB72C-2990-495F-BD7E-A2149924287D}"
+	ProjectSection(SolutionItems) = preProject
+		docker run jenkins.txt = docker run jenkins.txt
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
